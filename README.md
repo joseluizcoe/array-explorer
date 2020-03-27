@@ -1,8 +1,12 @@
+<a href="https://www.netlify.com">
+  <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg"/>
+</a>
+
 # JavaScript Array Explorer
 
 When I was first learning array methods, I spent a lot of time digging through the docs to find the appropriate one, and I had to search one by one. I made this resource to help people find the correct array method a bit more naturally. You can narrow down what you want to do and explore until you find what's most useful to you.
 
-Check out the site here: [https://sdras.github.io/array-explorer/](https://sdras.github.io/array-explorer/)
+Check out the site here: [https://arrayexplorer.netlify.com/](https://arrayexplorer.netlify.com/)
 
 Or if you prefer codepen: [https://codepen.io/sdras/full/gogVRX/](https://codepen.io/sdras/full/gogVRX/)
 
@@ -14,12 +18,14 @@ I based most of the examples and longer descriptions off of the MDN documentatio
 
 ## Other Similar Projects
 
-I have an Object Explorer as well: [https://sdras.github.io/object-explorer/](https://sdras.github.io/object-explorer/)
+**I have an Object Explorer as well: [https://objectexplorer.netlify.com/](https://objectexplorer.netlify.com/)**
 
 I've heard people say they want to fork this project for other languages and data types (ruby, etc), please feel free to! If you let me know about it, I'll link it up here.
 
 - [Ruby Array Explorer](https://contrepoint.github.io/ruby-array-explorer/). Code [here](https://github.com/contrepoint/ruby-array-explorer)
 - [Angular Array Explorer](https://niladri24dutta.github.io/Array-explorer-angular/) . Code [here](https://github.com/Niladri24dutta/Array-explorer-angular)
+- [Python List Explorer](https://akashp1712.github.io/python_explorer/). Code [here](https://github.com/akashp1712/python_explorer)
+- [Ramdajs Methods Explorer](https://davesnx.github.io/learn-ramda/) . Code [here](https://github.com/davesnx/learn-ramda)
 
 ## Thank you!
 
@@ -39,11 +45,6 @@ npm run build
 
 # build for production and view the bundle analyzer report
 npm run build --report
-
-# to build for the docs:
-npm run build
-# then rename `dist` to `docs` and remove the first slash `/static` from `static` in `index.html`
-# then change the font paths in the css file from `/static` to `../../static`
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
